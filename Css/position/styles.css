@@ -1,0 +1,38 @@
+
+
+div{
+   display: inline-block;
+    
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: aqua;
+    
+}
+
+.container{
+    background-color: yellow;
+    height: 1000px;
+    width: 100vw;
+}
+#box1{
+    position: relative;
+   left: 50px;
+   top: 80px;
+}
+#box2{
+    
+    position: static;
+    
+}
+#box3{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    
+}
+#box4{
+    position: sticky;
+    top: 30px;
+    left: 10px;
+}

@@ -1,0 +1,24 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+    background-image: linear-gradient(rgb(255, 0, 0,0.7),rgb(0, 128, 0,0.7),rgb(0, 0, 255,0.7));
+    margin: 10px;
+}
+.radial{
+    border: 1px dotted black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:conic-gradient(rgb(255, 166, 0,0.5)40%,white 4
+    0%,rgb(0, 128, 0,0.5) 10%);
+
+}

@@ -1,0 +1,78 @@
+/* .box{
+    
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(to right, red,blue);
+    background-image: linear-gradient(to left, red,blue);
+    background-image: linear-gradient(to bottom, red,blue);
+    background-image: linear-gradient(to bottom, rgb(255, 166, 0,0.9),rgb(255, 255, 255,0.1),green);
+}
+.mydiv{
+    border: 1px solid black;
+    margin: 10px;
+    margin-left: 250px;
+    
+    width: 200px;
+    height: 200px;
+    /* background-image: radial-gradient(red,blue); 
+    background-image: radial-gradient( rgb(255, 166, 0,1),rgb(255, 255, 255,0.9),rgb(0, 128, 0,1));
+    background-image: radial-gradient(green 30%,white 40%,orange 50%);
+
+
+}
+.conediv{
+    border: 1px solid black;
+    height:150px;
+    width: 150px;
+    background-image:conic-gradient(orange,white);
+    
+
+} 
+*/
+
+hr{
+    border: 5px solid black;
+}
+
+h1{
+    text-shadow: 1px 1px 1px red;
+    text-shadow: 3px 3px 3px red,5px 5px 5px green;
+}
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0
+    px 0px 0px 10px green,12px 12px 12px brown;
+    color: blue;
+}
+.max{
+    border: 1px solid black;
+    max-height: 200px;
+    max-width: 200px;
+    overflow: scroll;
+}
+.mydiv{
+    
+    border: 1px solid black;
+    margin: 10px;
+   
+   min-height: 100px;
+   min-width: 100px;
+
+    
+
+}
+.transform{
+    border: 1px solid black;
+    background-color: yellow;
+    height: 90px;
+    width: 90px;
+   /* transform: rotate(-45deg); */
+   margin: 200px;
+   /* transform: scale(2,3); */
+   transform: skewX(9deg);
+    
+}
