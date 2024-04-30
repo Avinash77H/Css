@@ -1,0 +1,22 @@
+*{
+    background-color: beige;
+    /* display: inline; */
+}
+
+p{
+   background-color: palegoldenrod; 
+}
+
+#heading1{
+background-color: palegreen;
+}
+
+.heading2{
+    background-color: paleturquoise;
+}
+
+
+h1,h2,h3{
+    background-color: palevioletred;
+}
+
