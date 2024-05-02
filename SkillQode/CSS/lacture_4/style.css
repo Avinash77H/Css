@@ -1,0 +1,37 @@
+.color{
+    color: red;
+    /* color: rgb(226, 89, 89); */
+    /* color: #ff0923; */
+    
+
+}
+.bg-color{
+    background-color: green;
+    color: white;
+     /* color: rgb(226, 89, 89); */
+    /* color: #ff0923; */
+}
+
+.border{
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+    /* border: 2px dashed green;
+    border: 2px double pink;
+    border: 2px dotted yellow; */
+}
+.border-radius{
+    height: 200px;
+    width: 200px;
+    border: 5px solid violet;
+    /* border-radius: 25px; */
+    border-top-left-radius: 25px;
+}
+.multi-border{
+    height: 200px;
+    width: 200px;
+   border-top: 5px solid red;
+   border-right: 10px solid green;
+   border-bottom: 15px solid blue;
+   border-left: 20px solid palevioletred;
+}
