@@ -1,0 +1,68 @@
+body div{
+    margin:1rem;
+    font-size: 2rem;
+    background-color: rgb(121, 76, 76);
+}
+
+.box1{
+    color: rgb(204, 79, 29);
+    background-color: yellow;
+    background-color: rebeccapurple;
+}
+.box2{
+    border: 1px solid black;
+    color: royalblue;
+    background-color: yellowgreen;
+}
+.box3{
+    color:#B34831;
+    border-width: 0px 0px 5px 0px;
+                  /* top right bottom left  */
+    border-style: dashed;
+    background-color: rgb(78, 97, 40);
+}
+.box4{
+ color: hsl(0, 100%, 50%);
+ border: 2px dotted green;
+ background-color: rgb(55, 49, 110);
+}
+.box5{
+    color: hsl(0, 19%, 40%);
+    border: 10px double green;
+    background-color: rgb(23, 122, 117);
+}
+.box6{
+    color: crimson;
+    border:10px groove brown; 
+    border-radius: 50%;  
+    overflow: auto;
+    background-color: rgb(179, 43, 100);
+
+}
+.box7{
+ color: rgb(83, 85, 207);
+ border: 3px ridge yellow;
+ background-color: rgb(206, 56, 56);
+
+}
+.box8{
+    color: rgba(63, 7, 24);
+    border: 3px inset rgb(118, 122, 175);
+    background-color: rgb(65, 80, 79);
+
+}
+.box9{
+    color:rgb(204, 223, 202);
+    border: 3px outset yellowgreen;
+    background-color: rgb(130, 196, 26);
+
+}
+.box10{
+    color: #296e4e;
+    border-style: dotted dashed solid double;
+    border-color: aqua;
+    border-radius: 12px;
+    border-width: 3px;
+    background-color: rgb(68, 59, 202);
+
+}
