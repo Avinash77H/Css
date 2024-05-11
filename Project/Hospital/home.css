@@ -21,9 +21,9 @@ body{
     margin: 0 auto;
     padding-top: 32px;
     background-color:  #F5F6F9;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
 }
 nav{
     width: 100%;    
@@ -44,7 +44,7 @@ nav{
 
 }
 .div1{
-    width: 188px;
+    max-width: 188px;
     height: 52px;
     display: flex;
     justify-content: center;
@@ -119,7 +119,43 @@ nav{
     color: white;
     border-radius: 10px;
 }
-     /* next section box_container */
+
+@media (max-width:375px){
+    .nav_container{
+    
+        height:3rem ;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      
+    
+    }
+   
+
+    .div2{
+       
+       display: none;
+       
+    }
+   
+    .div3 .div3_logo{
+        display: none;
+    } 
+    .div3 .nav_button{
+        display: none;
+    }
+    .div3 .bar_icon{
+       width: 20px;
+       height: 20px;
+       display: grid;
+       place-items: center;
+
+    }
+}
+
+     /*  box_container */
+
 .box_container{
     /* border: 1px solid black; */
     max-width: 1440px;
@@ -132,6 +168,7 @@ nav{
 
 }
 .left_box{
+   padding-left: 20px;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -300,9 +337,7 @@ nav{
     
     
 }
-.right_grid{
 
-}
 #box1{ 
     grid-area: 1;
     
@@ -325,6 +360,72 @@ nav{
 .right_container{
     gap: 20px;
 }
-.box_container{
+
+@media (max-width:375px){
+    .box_container{
+      
+        max-width: 1440px;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+       
+    
+    }
+    .left_box{
+        padding-left: 20px;
+         width: 100%;
+      
+         
+     }
+    .left_box_heading{
+        width: 100%;
+        font-weight: 500;
+        font-size: 3rem;
+        
+
+    }
+    .button_group{
+      
+        display: flex;
+        justify-content: space-between;
+        gap:20px;
+    }
+    .aero{
+        display: none;
+    }
+
+    .right_container{
+        padding: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.about_hospital{
+    display: flex;
+}
+.our_client{
+    max-width: 204px;
+    max-height: 145px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.our_client h3{
+    color: 
+    rgba(3, 35, 66, 1);
+    font-size: 1.2rem;
+}
+.our_client p{
+    color: gray;
+}
+.our_client .clients_container{
+    display: flex;
     
 }
