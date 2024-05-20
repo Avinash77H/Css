@@ -31,3 +31,18 @@
     list-style-position: inside;
     list-style-image: url(./arrow_forward_24dp_FILL0_wght400_GRAD0_opsz24.png);
 }
+
+.min_width{
+    min-width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    
+}
+.max_width{
+    max-width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid black;
+    
+}
