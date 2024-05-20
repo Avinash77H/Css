@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 90vh;
+    width: 90vw;
+    border: 2px solid black;
+    background-color: beige;
+    margin:10px auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto auto;
+    padding: 20px;
+    gap:30px
+
+}
+.box{
+    /* height: 200px;
+    width: 200px; */
+    border: 2px solid black;
+    
+}
+#box1:hover{
+    transform: translateX(200px);
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+#box2:hover{
+    transform: translateY(200px);
+    transition:all 2s linear 0.5s;
+}
+#box3:hover{
+    transform: translate(200px,200px);
+    transition:all 2s linear 0.5s;
+}
+#box4:hover{
+    transform: scale(2);
+    transition:all 2s linear 0.5s;
+}
+#box5:hover{
+    transform: scale(-2);
+    transition:all 2s linear 0.5s;
+}
+#box6:hover{
+    transform: scale(3);
+    transition:all 2s linear 0.5s;
+}
+#box7:hover{
+    transform: skewX(45deg);
+    transition:all 2s linear 0.5s;
+}
+#box8:hover{
+    transform: skewY(45deg);
+    transition:all 2s linear 0.5s;
+}
+#box9:hover{
+    transform: skew(45deg,45deg);
+    transition:all 2s linear 0.5s;
+}
+#box10:hover{
+    transform: rotateX(90deg);
+    transition:all 2s linear 0.5s;
+}
+#box11:hover{
+    transform: rotateY(90deg);
+    transition:all 2s linear 0.5s;
+}
+#box12:hover{
+    transform: rotateZ(90deg);
+    transition:all 2s linear 0.5s;
+}
