@@ -1,0 +1,32 @@
+div:empty{
+    background-color: red;
+}
+
+.empty_div{
+    height: 100px;
+    width: 100px;
+}
+
+/* h1:nth-child(2){
+    background-color: yellow;
+} */
+
+/* h1:nth-last-child(3){
+    background-color: yellow;
+} */
+
+/* h1:nth-of-type(even){
+    background-color: yellow;
+} */
+
+h1:nth-last-of-type(odd){
+    background-color: yellow;
+}
+
+/* h1:first-child{
+    background-color: red;
+} */
+
+/* h1:last-child{
+    background-color: yellow;
+} */
