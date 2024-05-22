@@ -1,0 +1,13 @@
+a:nth-child(1){
+    color: red;
+    background-color: yellow;
+}
+a:nth-child(4){
+    color: red;
+    background-color: yellow;
+}
+
+ div h1:nth-child(1){
+    color: red;
+    background-color: yellow;
+}
