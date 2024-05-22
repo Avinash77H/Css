@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 10000px;
+    border: 2px solid black;
+    background: beige;
+    margin-top: 40px;
+    /* position: relative; */
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+#box1{
+    background-color: red;
+    position: static;
+}
+#box2{
+    background-color: green;
+    position: fixed;
+    left: 200px;
+    cursor:pointer;
+}
+#box3{
+    background-color: yellow;
+    position: sticky;
+    top: 10px;
+    left: 300px;
+}
+#box4{
+    background-color: violet;
+    position: relative;
+    left: 20px;
+}
+#box5{
+    background-color: blue;
+    position: absolute;
+    
+    top: 30px;
+}
