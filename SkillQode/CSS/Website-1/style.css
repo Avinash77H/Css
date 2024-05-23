@@ -70,6 +70,7 @@
     width: 40%;
     display: flex;
     flex-direction: column;
+    gap: 30px;
     
     
 }
@@ -81,6 +82,20 @@
 .left_box p{
     font-size: 22px;
     color: white;
+}
+.left_box button{
+    justify-self: center;
+    align-self: flex-start;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 40px;
+    color: #002450;
+    font-weight: 800;
+}
+.left_box button:hover{
+    background-color: #002450;
+    color: white;
+    transition: all 0.3s linear;
 }
 
 .right_box{
