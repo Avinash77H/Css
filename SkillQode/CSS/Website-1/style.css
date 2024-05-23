@@ -19,7 +19,12 @@
 .wrapper {
     width: 100vw;
 }
-
+nav{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color: white;
+}
 .nav_container {
 
     width: 100vw;
@@ -30,6 +35,7 @@
     align-items: center;
     text-align: center;
     padding: 10px 20px;
+    
 }
 
 .logo {
@@ -132,32 +138,7 @@
     flex-direction: column;
     gap: 30px;
     padding-left: 10px;
-    animation-name: background_color;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;
 }
-.box:hover{
-    /* background-color:#007bff */
-    /* animation:background_color 0.5s linear; */
-    /* animation-name:background_color;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: 1; */
-}
-@keyframes bakcground_color{
-    0%{
-       background-color: #007bff;
-    }
-    100%{
-        background-color:#007bff;
-    }
-}
-/* .box:hover {
-    background-color: #00bbff;
-    transition: all 0.5s linear;
-
-} */
 
 .box i {
     max-width: 50px;
@@ -165,7 +146,6 @@
 }
 
 .box i:hover {
-
     transform: rotateY(180deg);
     transition: all 0.5s linear;
 }
@@ -177,4 +157,37 @@
 
 .box p {
     font-size: 20px;
+}
+
+/* new section */
+.hosting_container{
+    display: flex;
+}
+.left_side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 30px;
+}
+.blue_div{
+    background-color:#007bff;
+    height: 270px;
+    width: 480px;
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+    top: 160px;
+}
+.girl_image img{
+    width: 480px;
+    height: 360px;
+    position: relative;
+    border:10px solid rgb(238, 226, 226);
+    z-index:2;
+}
+.left_side .icon{
+    font-size: 50px;
+    position: absolute;
+    z-index: 3;
 }
