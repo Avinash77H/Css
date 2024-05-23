@@ -1,89 +1,100 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-:root{
-    --first:#f6f6f6;
-    --second:#007bff;
-    --third:#002450;
-    --forth:#00bbff;
-    --gray:#9fa4af;
-    --dark-brown:#2d2d2d;
-    --brown:#494949;
-    --light-brown:#4f4f4f;
-    
+
+:root {
+    --first: #f6f6f6;
+    --second: #007bff;
+    --third: #002450;
+    --forth: #00bbff;
+    --gray: #9fa4af;
+    --dark-brown: #2d2d2d;
+    --brown: #494949;
+    --light-brown: #4f4f4f;
+
 }
-.wrapper{
+
+.wrapper {
     width: 100vw;
 }
-.nav_container{
+
+.nav_container {
 
     width: 100vw;
     background-color: var(first);
-    
+
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     padding: 10px 20px;
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.nav_items{
+
+.nav_items {
     display: flex;
     justify-content: space-around;
     text-align: center;
     gap: 30px;
 }
-.nav_items a{
+
+.nav_items a {
     text-decoration: none;
     color: #002450;
     font-weight: 700;
 }
-.nav_icon{
+
+.nav_icon {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.nav_icon span{
-    color:#002450;
+
+.nav_icon span {
+    color: #002450;
 }
 
 
 /* hero section */
 
-.hero_section{
-    background-color:#007bff;
+.hero_section {
+    background-color: #007bff;
     display: flex;
     width: 100vw;
     justify-content: center;
     align-items: center;
-    
+
 
 
 }
-.left_box{
+
+.left_box {
     width: 40%;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    
-    
+
+
 }
 
-.left_box h1{
+.left_box h1 {
     font-size: 70px;
     color: white;
 }
-.left_box p{
+
+.left_box p {
     font-size: 22px;
     color: white;
 }
-.left_box button{
+
+.left_box button {
     justify-self: center;
     align-self: flex-start;
     border: none;
@@ -92,17 +103,78 @@
     color: #002450;
     font-weight: 800;
 }
-.left_box button:hover{
+
+.left_box button:hover {
     background-color: #002450;
     color: white;
     transition: all 0.3s linear;
 }
 
-.right_box{
+.right_box {
     width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.hori_container {
+    background-color: #002450;
+    color: white;
+    display: flex;
+    justify-content: space-betweem;
+    align-items: center;
+    padding: 30px 200px;
+    gap: 20px;
+}
 
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 10px;
+    animation-name: background_color;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+.box:hover{
+    /* background-color:#007bff */
+    /* animation:background_color 0.5s linear; */
+    /* animation-name:background_color;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1; */
+}
+@keyframes bakcground_color{
+    0%{
+       background-color: #007bff;
+    }
+    100%{
+        background-color:#007bff;
+    }
+}
+/* .box:hover {
+    background-color: #00bbff;
+    transition: all 0.5s linear;
+
+} */
+
+.box i {
+    max-width: 50px;
+    font-size: 40px;
+}
+
+.box i:hover {
+
+    transform: rotateY(180deg);
+    transition: all 0.5s linear;
+}
+
+.box h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.box p {
+    font-size: 20px;
+}
