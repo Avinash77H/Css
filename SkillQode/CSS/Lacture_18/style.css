@@ -1,36 +1,20 @@
 *{
-    padding:0;
-    margin: 0;
+    padding: 0;
+    margin:0;
     box-sizing: border-box;
 }
-.box_container{
-    border: 5px dotted black;
-    width: fit-content;
-    margin: 50px auto;
-    display: flex;
-   
-    gap: 10px;
-}
-.box{
-    height: 150px;
-    width: 150px;
-    background-color: red;
-}
-.two{
-    background-color: green;
+.mask img{
+    height: 500px;
+    width: 500px;
+    mask-image: url(./front.svg);
+    mask-size: cover;
+
 }
 
-.second-container .two{
-    position: relative;
-    top: 40px;
-    left: 40px;
-}
- 
-.third-container{
-    position: relative;
-}
-.third-container .two{
-    position: absolute;
-    top: 20px;
-    left: 20px;
+.filter img{
+    /* filter: blur(2px); */
+    /* filter: brightness(200%); */
+    /* filter: contrast(30%); */
+    /* filter: drop-shadow(5px 5px 5px blue); */
+    /* filter: grayscale(50%); */
 }
