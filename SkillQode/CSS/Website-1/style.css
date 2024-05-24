@@ -449,7 +449,7 @@ nav{
 .merge_box_container {
     display: flex;
     width: 100vw;
-    border: 2px solid black;
+  
     
 }
 .merge_box_container .left_box{
