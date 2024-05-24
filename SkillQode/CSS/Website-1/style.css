@@ -15,16 +15,23 @@
     --light-brown: #4f4f4f;
 
 }
+html{
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: Roboto, sans-serif;
+}
 body{
     overflow-x: hidden;
+   
 }
 .wrapper {
     width: 100vw;
 }
 nav{
     position: sticky;
+
     top: 0px;
-    z-index: 2;
+    z-index: 100;
     background-color: white;
 }
 .nav_container {
@@ -167,9 +174,10 @@ nav{
 .hosting_container{
     display: flex;
     width: 100vw;
+    justify-content: space-around;
 }
 .left_side{
-    width: 50%;
+    /* width: 50%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,13 +217,19 @@ nav{
 }
 
 .right_side p{
-    font-size: 22px;
-    color: gray;
+    /* font-size: 22px;
+    color: gray; */
+    color: #494949;
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: Roboto, sans-serif;
 }
 .right_side h2{
     color: #002450;
     font-size: 40px;
     font-weight: 400;
+
+   
 }
 .right_side button{
     color: var(--forth);
