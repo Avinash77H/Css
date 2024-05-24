@@ -15,7 +15,9 @@
     --light-brown: #4f4f4f;
 
 }
-
+body{
+    overflow-x: hidden;
+}
 .wrapper {
     width: 100vw;
 }
@@ -160,10 +162,14 @@ nav{
 }
 
 /* new section */
+/* hosting container */
+/* left side  */
 .hosting_container{
     display: flex;
+    width: 100vw;
 }
 .left_side{
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,4 +196,85 @@ nav{
     font-size: 50px;
     position: absolute;
     z-index: 3;
+}
+/* right side */
+.right_side{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+
+.right_side p{
+    font-size: 22px;
+    color: gray;
+}
+.right_side h2{
+    color: #002450;
+    font-size: 40px;
+    font-weight: 400;
+}
+.right_side button{
+    color: var(--forth);
+    background-color: white;
+    align-self: flex-start;
+    border:2px solid var(--forth);
+    font-weight: 800;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 20px 40px;
+    
+}
+.right_side button:hover{
+    background-color: var(--forth);
+    color: white;
+    transition: all 0.2s linear;
+}
+
+/* circle_container */
+.circle_container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+.circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.ring1,.ring3{
+    border-top: 15px solid var(--forth);
+    border-right: 15px solid var(--forth);
+    border-bottom: 15px solid var(--forth);
+    border-left: 15px solid var(--gray);
+    border-radius: 50%;
+    padding: 70px;
+}
+.ring2{
+    border-top: 15px solid var(--third);
+    border-right: 15px solid var(--third);
+    border-bottom: 15px solid var(--third);
+    border-left: 15px solid var(--third);
+    border-radius: 50%;
+    padding: 70px;
+}
+.circle .ring1 p{
+    font-size: 20px;
+    color: #002450;
+}
+.circle h4{
+    color: #002450;
+    font-size: 25px;
+    font-weight: 500;
+}
+.circle p{
+    font-size: 22px;
+    color: #9fa4af;
+
 }
