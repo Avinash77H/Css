@@ -292,3 +292,207 @@ nav{
     color: #9fa4af;
 
 }
+
+
+/* dark blue box */
+.blue_box{
+    width: 100vw;
+    height: 400px;
+    background-color: #002450;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+.blue_box h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+
+
+}
+.blue_box button{background-color: #002450;
+    border:2px solid var(--forth);
+    font-weight: 800;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 20px 40px;
+    color: white;
+}
+.blue_box button:hover{
+    background-color: var(--forth);
+    color: white;
+    transition: all 0.2s linear;
+}
+
+/* package content */
+.package_content{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 150px 100px;
+}
+.package_content h2{
+    font-size: 35px;
+    
+    font-weight: 500;
+    text-align: center;
+}
+.package_content p{
+    color:#4f4f4f;
+
+}
+
+/* plan_container */
+.plan_container{
+    display: flex;
+    justify-content:space-around;
+}
+.card{
+    width: 400px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    border: 2px solid gainsboro;
+    
+    
+    
+}
+.card_header{
+    background-color: #002450;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+}
+.actual_prize{
+    color: #002450;
+    text-align: center;
+}
+.paragraph_list{
+    display: flex;
+    flex-direction: column;
+    color:#4f4f4f;
+    justify-content: center;
+    align-items: center;
+}
+.card button{
+    border: none;
+    align-self: flex-start;
+    background-color: #002450;
+    align-self: center;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+}
+.card button:hover{
+    background-color:#007bff;
+    color:#002450;
+}
+.card2 .card_header{
+    background-color: #007bff;
+    padding: 20px 100px;
+}
+.card2 button{
+    background-color: #007bff;
+}
+.card2 button:hover{
+   
+    color:#002450;
+    transition: all 0.2s linear;
+}
+
+/* vps hosting container */
+.vps_hosting_container{
+    background-color:#f6f6f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    margin-top: 50px;
+    
+}
+/* left-box */
+.vps_hosting_container .left_box{
+    display: flex;
+    flex-direction:column;
+    gap: 50px;
+    margin-top: 30px;
+}
+.vps_hosting_container .left_box h2{
+    color:#002450;
+
+}
+.vps_hosting_container .left_box p{
+    color:#4f4f4f
+}
+.vps_hosting_container .left_box button{
+    background-color:#007bff ;
+}
+/* right-box */
+.vps_hosting_container .right_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* merge_box_container */
+.merge_box_container {
+    display: flex;
+    width: 100vw;
+    border: 2px solid black;
+    
+}
+.merge_box_container .left_box{
+    width: 50%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.merge_box_container .left_box h2{
+    text-align: center;
+}
+.merge_box_container .left_box h1{
+    text-align: center;
+}
+
+/* right-box */
+
+.merge_box_container .right_box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #002450;
+    color: white;
+    gap: 100px;
+    padding: 40px;
+
+}
+.merge_box_container .right_box span img{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+   
+}
+.merge_box_container .right_box p{
+    text-align: center;
+}
+.profile_pic{
+    
+    padding: 50px;
+    border-radius: 50%;
+    background-image: url(./assets/asset\ 5.png);
+}
