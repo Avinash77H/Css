@@ -12,9 +12,9 @@
 }
 
 .filter img{
-    /* filter: blur(2px); */
-    /* filter: brightness(200%); */
-    /* filter: contrast(30%); */
-    /* filter: drop-shadow(5px 5px 5px blue); */
-    /* filter: grayscale(50%); */
+    filter: blur(2px);
+    filter: brightness(200%);
+    filter: contrast(30%);
+    filter: drop-shadow(5px 5px 5px blue);
+    filter: grayscale(50%);
 }
