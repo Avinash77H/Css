@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.demo1{
+    width: fit-content;
+    border: 2px solid black;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin: 10px auto;
+}
+.circle{
+   height: 30px;
+   width: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* border: 1px solid black; */
+   border-radius: 50%;
+   box-shadow: 2px 2px 3px  gray;
+   
+}
+.box1,.box9{
+    background-color: orangered;
+}
+.box4{
+    background-color: slateblue;
+}
+
+/* demo 2 */
+.demo2{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: green;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius:25px;
+    padding: 15px;
+}
+.container a{
+    text-decoration: none;
+    color: green;
+    /* border: 2px solid black; */
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+.container .ten{
+    color:white
+}
+.ten{
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
+
+/* demo3 */
+
+.demo3{
+    position: relative;
+    width: fit-content;
+    padding: 30px 50px;
+    border:2px solid black;
+    margin: 100px auto;
+}
+
+.demo3:hover .tooltip{
+    visibility: visible;
+}
+.tooltip{
+    visibility:hidden;
+    position: absolute;
+    width: fit-content;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    bottom: 90px;
+    left: 20px;
+}
+

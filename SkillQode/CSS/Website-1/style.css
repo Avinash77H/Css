@@ -621,6 +621,10 @@ nav{
     height: 130px;
     width:130px;
 }
+.div2 input:focus{
+    /* visibility: none; */
+    display: none;
+}
 .div3{
     display: flex;
     flex-direction: column;
@@ -633,9 +637,11 @@ nav{
 .div3 textarea::placeholder{
     color: white;
 }
-/* .div3 textarea:focus{
-    border-color: #007bff;
-} */
+.div3 textarea:focus{
+    /* border-color: #007bff; */
+    visibility: hidden;
+    /* display: none; */
+}
 .div3 button{
     border-radius: 25px;
     border: none;

@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: blue;
+    
+}
+.box:active{
+    position: relative;
+    animation-name: ex;
+    
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ex{
+    0%{background-color:blue; left:0; top:0;}
+    10%{background-color: red;}
+    20%{background-color: green;}
+    30%{background-color: violet; left:200px; top:0;}
+    40%{background-color: chocolate;}
+    50%{background-color: yellow; left:200px; top:200px;}
+    60%{background-color: orangered;}
+    70%{background-color: cornflowerblue;}
+    80%{background-color: brown;}
+    90%{background-color: slateblue; left:0; top:200px;}
+    100%{background-color: chartreuse;}
+}
