@@ -160,7 +160,7 @@ nav{
     font-size: 40px;
 }
 
-.box i:hover {
+.box:hover i{
     transform: rotateY(180deg);
     transition: all 0.5s linear;
 }
