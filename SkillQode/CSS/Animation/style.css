@@ -7,7 +7,8 @@
     height: 200px;
     width: 200px;
     border: 2px solid black;
-    /* background-color: blue; */
+    background-color:
+     blue;
     
 /* 
     position: relative;
@@ -20,7 +21,12 @@
     /* animation-direction: alternate; */
   /* transform: scaleX(2); */
 }
-.box{
+@media (max-width:500px) {
+    .box{
+        background-color: orangered;
+    }
+}
+/* .box{
     position: relative;
     animation-name: ex;
     
@@ -28,7 +34,7 @@
     animation-timing-function: linear;
     animation-iteration-count: 1;
     animation-fill-mode:forwards;
-}
+} */
 
 @keyframes ex{
     0%{
