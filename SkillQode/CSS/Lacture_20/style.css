@@ -66,3 +66,23 @@ li::marker{
 .container3{
     margin-left: 30px;
 }
+
+.container4{
+    width: fit-content;
+    border: 2px solid yellowgreen;
+    color: white;
+    background-color: black;
+
+}
+img{
+    float: right;
+}
+.first_para{
+    color: palegreen;
+    /* clear: both; */
+   
+}
+.second_para{
+    color: paleturquoise;
+    /* clear: both; */
+}
