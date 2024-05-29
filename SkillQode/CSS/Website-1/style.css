@@ -528,8 +528,9 @@ nav{
 .blog_container{
     display: flex;
     width: 100vw;
-    /* justify-content: space-evenly; */
-    padding-left: 70px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    /* padding-left: 70px; */
 }
 .card{
     display: flex;
