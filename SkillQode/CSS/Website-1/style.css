@@ -531,7 +531,6 @@ nav{
     width: 100vw;
     /* justify-content: space-evenly; */
     padding-left: 70px;
-    gap: 20px;
 }
 .blog_container .card{
     display: flex;
