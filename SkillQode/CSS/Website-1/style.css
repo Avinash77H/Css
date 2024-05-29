@@ -348,7 +348,7 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 150px 100px;
+    padding: 100px 100px;
 }
 .package_content h2{
     font-size: 35px;
@@ -368,13 +368,14 @@ nav{
 }
 .card{
     width: 400px;
+    
     display: flex;
     flex-direction:column;
     justify-content: center;
     gap: 20px;
     padding: 30px;
-    border: 2px solid gainsboro;
-    
+    /* border: 2px solid rgba(128, 128, 128, 0.798) !important; */
+    box-shadow:5px 5px 25px  #9fa4af ;
     
     
 }
@@ -528,15 +529,17 @@ nav{
 .blog_container{
     display: flex;
     width: 100vw;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    /* padding-left: 70px; */
+    /* justify-content: space-evenly; */
+    padding-left: 70px;
 }
-.card{
+.blog_container .card{
     display: flex;
     flex-direction: column;
-    
-    border: none;
+    border: none !important;
+    /* border: 1px solid black !important; */
+    /* padding: none !important;   */
+    box-shadow:5px 5px 25px  #9fa4af ;
+   
     
 }
 

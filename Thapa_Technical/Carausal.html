@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carausal</title>
+    <link rel="stylesheet" href="Carausal.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 62.5%;
+        }
+        body{
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        .container{
+            width: 60vw;
+            height: 50rem;
+            border-radius: 1rem;
+            /* box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px ; */
+            background-image: url(./image/img11.jfif);
+            background-size: cover;
+            
+            animation: gallery;
+            animation: gallery 20s linear infinite;
+            
+        }
+        @keyframes gallery{
+            /* 10%{
+                background-image: url(./image/img1.jpg);
+            } */
+            20%{
+                background-image: url(./image/img2.jpg);
+            }
+            /* 30%{
+                background-image: url(./image/img3.jfif);
+            } */
+            40%{
+                background-image: url(./image/img4.jfif);
+            }
+            /* 50%{
+                background-image: url(./image/img5.jfif);
+            } */
+            60%{
+                background-image: url(./image/img6.jfif);
+            }
+            /* 70%{
+                background-image: url(./image/img7.jfif);
+            } */
+            80%{
+                background-image: url(./image/img8.jfif);
+            }
+           /* 90%{
+                background-image: url(./image/img9.jfif);
+            } */
+            100%{
+                background-image: url(./image/img10.jpg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+</body>
+</html>
