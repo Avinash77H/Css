@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.sub_box{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: lightgreen;
+}
+@media screen and (width <=768px) {
+    .container{
+        flex-direction: column;
+    }
+}
+@media screen and (width <= 600px) {
+   .sub_box{
+    flex-direction: column;
+   }
+}
