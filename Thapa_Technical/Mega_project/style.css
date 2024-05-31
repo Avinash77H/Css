@@ -35,7 +35,7 @@ li{
         --main-color:#0062ff;
         --supporting-color:#ebf3fe;
         --font-color:#424242;
-        --bg-color:#ffffff;
+        --bg-color:#f7fcff;
         --heading-color:#000a19;
         --hero-heading-color:#003b99;
         --white-color:#fff;
@@ -51,6 +51,9 @@ li{
     /* border: 2px solid black; */
     padding: 9.6rem 2.4rem;
     
+}
+.section_why__choose .container:first-child{
+    padding: 6.4rem 0 2.4rem 0;
 }
 .grid{
     display: grid;
@@ -226,6 +229,9 @@ main{
 /*** about section end ***/
 
 /*** course section start ***/
+.section_course{
+    background-color: var(--bg-color);
+}
 .section_course .grid{
     gap: 3.2rem;
 }
@@ -327,3 +333,81 @@ main{
     border: 0.5rem solid var(--supporting-color);
 }
 /*** end why choose section***/
+
+
+/***  contact home section start ***/
+.section_contact__homepage{
+        width: 60%;
+        min-height: 25rem;
+        margin: 0 auto;
+        box-shadow: rgba(60,64,67,0.3) 0px 1px 2px 0px,rgba(60,64,67,0.15) 0px 2px 6px 2px;
+        /* margin-bottom: 5rem; */
+        border-radius: 0.2rem;
+        padding: 0 3.2rem;
+        position: relative;
+        bottom: -15rem;
+        z-index: 1;
+        /* margin-bottom: -15rem; */
+        background-color: var(--white-color);
+    }
+.section_contact__homepage img{
+    width: 70%;
+    height: auto;
+}
+
+& .grid{
+    align-items: center;
+    gap: 6.4rem;
+}
+.contact_title{
+    font-size: 3.8rem;
+    line-height: 1.2;
+}
+.contact_content p{
+    margin: 1.2rem 0 2.4rem 0;
+}
+.section_contact__homepage a{
+    color: var(--white-color);
+    text-transform: capitalize;
+}
+/***  contact home section end ***/
+
+
+/***  footer section ***/
+
+footer{
+    background-color: #040d12;
+    padding-top: 15rem;
+   
+}
+footer *{
+    color: white;
+    padding-left: 2rem;
+    
+}
+.footer_subheading{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.footer_1__div p{
+    margin: 1rem 0 3.2rem 0;
+}
+.social_footer__icon{
+    display: flex;
+    gap:1rem;
+}
+.footer_1__div{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+& .fa-solid{
+    width: 5rem;
+    aspect-ratio: 1;
+    background-color: var(--supporting-color);
+    
+    color: var(--btn-hover-bg-color);
+    border-radius: 50%;
+   
+    }
+}
