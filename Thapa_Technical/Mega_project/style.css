@@ -372,6 +372,42 @@ main{
 }
 /***  contact home section end ***/
 
+/***  blog section start ***/
+
+.section_blog{
+    background-color: var(--bg-color);
+
+    & .blog{
+        
+        box-shadow: var(--btn-box-shadow);
+        
+        & .blog_content{
+            padding: 1.4rem 2.4rem 2.4rem;
+        }
+    }
+
+    & img{
+        width: 100%;
+        height: auto;
+    }
+    & .blog_date{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.6rem;
+        
+   
+    & .fa-solid{
+        background-color: transparent;
+        padding: 0;
+    }
+}
+&.section_common__title{
+    margin-top: 0.8rem;
+}
+}
+
+
+/***  blog section end ***/
 
 /***  footer section ***/
 
@@ -411,3 +447,4 @@ footer *{
    
     }
 }
+
