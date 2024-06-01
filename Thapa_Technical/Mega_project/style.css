@@ -448,3 +448,10 @@ footer *{
     }
 }
 
+/* media queries section */
+@media (max-width:1380px){
+    html{
+        font-size: 52.25%;
+    }
+}
+
