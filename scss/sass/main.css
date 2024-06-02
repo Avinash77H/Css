@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.main_header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: palegreen;
+}
+.main_header h1 {
+  color: black;
+  font-size: 5rem;
+  letter-spacing: 4rem;
+  text-transform: uppercase;
+}
+.main_header h1:hover {
+  color: slateblue;
+}
+.main_header h1::before {
+  content: "*";
+}
+.main_header h1::after {
+  content: "*";
+}
+.main_header p {
+  color: black;
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+  text-transform: capitalize;
+}
+.main_header p:hover {
+  color: slateblue;
+}/*# sourceMappingURL=main.css.map */

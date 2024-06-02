@@ -1,0 +1,49 @@
+@import "mixin";
+@import "var";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+// 1.operator
+// 2.variables
+// 3.nesting
+// 4.mixin
+// 5.parameter
+// 6.partials
+.main_header{
+    width: 100vw;
+    height: 100vh;
+   @include flex_property;
+    flex-direction: column;
+    background-color: $bg-color;
+
+
+    h1{
+        @include common_text_pro(4rem,uppercase);
+        
+
+        &:hover{
+            color: $hover-color;
+        }
+        &::before{
+            content: "*";
+        }
+        &::after{
+            content:"*";
+        }
+    }
+    
+    p{
+        @include common_text_pro(0.5rem,capitalize);
+
+        &:hover{
+            color: $hover-color;
+        }
+    }
+    
+}

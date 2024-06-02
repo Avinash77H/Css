@@ -1,0 +1,11 @@
+@mixin flex_property{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin common_text_pro($par1,$par2){
+    color: black;
+    font-size:5rem;
+    letter-spacing: $par1;
+    text-transform: $par2;
+}
