@@ -1,0 +1,11 @@
+$bg-color:slateblue;
+$text-color:white;
+nav{
+    background-color: $bg-color;
+}
+ul{
+    display: flex;
+}
+li{
+    color: $text-color;
+}
