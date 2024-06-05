@@ -1,11 +1,110 @@
-$bg-color:slateblue;
+$bg-color:red;
 $text-color:white;
-nav{
-    background-color: $bg-color;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-ul{
+@mixin flex{
     display: flex;
 }
-li{
-    color: $text-color;
+@mixin color{
+    background-color:$bg-color;
+    color:$text-color;
+    
+}
+
+.container{
+    width: 90vw;
+    margin:0 auto;
+    padding: 20px 40px
+   
+}
+// navbar//
+nav{
+    @include color;
+}
+
+.nav_container{
+     @include flex;
+     @include color;
+   
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 50px;
+
+
+     
+    .nav_items{
+        
+        ul{
+            @include flex;
+           gap: 40px;
+            
+            
+            li{
+               list-style-type:none;
+            };
+        }
+    }
+}
+
+
+// main section //
+.main_container{
+   @include flex;
+ 
+    height: 80vh;
+   
+    justify-content: center;
+    align-items: center;
+    
+  
+    
+    background-image: url(./images\ \(1\).jfif);
+    background-position: center;
+    background-size: cover;
+       
+   
+  
+    
+   .content_box{
+    width: 50%;
+    height: 90%;
+    color: white;
+    margin: 0 auto;
+    
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    // padding: 10px 100px;
+
+    h1{
+        font-size: 3.5rem;
+        font-weight: 800;
+        font-family: sans-serif;
+
+        span{
+            color:slateblue;
+        }
+    }
+
+    p{
+        font-size: 1.3rem;
+        font-family: sans-serif;
+        font-weight: 400;
+    }
+    button{
+        @include color;
+        border: none;
+        padding: 10px 30px;
+        font-weight: 800;
+        font-family: sans-serif;
+        font-size: 1.2rem;
+        
+    }
+   }
 }
