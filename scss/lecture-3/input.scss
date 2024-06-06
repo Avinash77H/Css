@@ -1,0 +1,23 @@
+// @import 'utility';
+@use 'utility' as *;
+
+@mixin flex($bg-color, $color) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-color;
+    color: $color;
+}
+
+.div1 {
+    width: 200px;
+    aspect-ratio: 1;
+    @include flex($bg-color, slateblue);
+}
+
+.div2 {
+    width: 200px;
+    aspect-ratio: 1;
+
+    @include flex(palegreen, indigo);
+}
