@@ -1,0 +1,31 @@
+// variables
+
+$primary-font:'raleway',sans-serif;
+$primary-color:#4e82be;
+$white-color:#fff;
+$black-color:#000;
+
+// mixin
+
+@mixin flex_property{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $primary-font;
+}
+
+html{
+    font-size: 15px;
+}
+
+// header starts
+
+header{
+    
+}
