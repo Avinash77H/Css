@@ -67,15 +67,45 @@
 // window
 
 {
-    function html(){
-        document.getElementById('demo').innerHTML = 'Hi , How Are You!';
-    }
+    // function html(){
+    //     document.getElementById('demo').innerHTML = 'Hi , How Are You!';
+    // }
 
-    function css(){
-        document.getElementById('demo').style.backgroundColor = 'purple';
-        document.getElementById('demo').style.color = 'white';
-        document.getElementById('demo').style.textDecoration = 'underline';
-    }
+    // function css(){
+    //     document.getElementById('demo').style.backgroundColor = 'purple';
+    //     document.getElementById('demo').style.color = 'white';
+    //     document.getElementById('demo').style.textDecoration = 'underline';
+    // }
 
     
+}
+
+
+/* revision */
+{
+    // let obj1 = { 
+    //     a : 100,
+    //     b : 200,
+    //     c : 300
+    // }
+
+    // for (let key in obj1){
+    //     console.log(key + " : " + obj1[key]);
+    // }
+}
+
+{
+    // const array = [1,2,3,4,5];
+
+    // for(let value of array){
+    //     console.log(value);
+    // }
+}
+
+{
+    // const array = [100,200,300,400];
+
+    // array.forEach((value) => {
+    //     console.log(value);
+    // });
 }

@@ -99,7 +99,7 @@ p{
     }
 } */
 
-/* .dabbo{
+.dabbo{
     height: 200px;
     width: 200px;
     background-color: lightgreen;
@@ -128,7 +128,7 @@ p{
 .dabbo:hover::before{
     transform: translateY(0);
    
-} */
+}
 
 .animation_box{
     height: 200px;
