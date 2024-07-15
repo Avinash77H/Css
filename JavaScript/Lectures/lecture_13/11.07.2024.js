@@ -35,7 +35,7 @@
 /* function as a variable (anonymous function) */
 
 {
-    // let data = function (a,b){console.log(a+ b)};
+    // let data = function (a,b){console.log(a + b)};
 
     // data(10,10);
 }

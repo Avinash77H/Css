@@ -21,15 +21,15 @@
 
 // The substring() method of string values returns the part of this string from the start index up to and excluding the end index, or to the end of the string if no end index is supplied.
 
-// substring(indexStart)
-// substring(indexStart, indexEnd)
+// substring(indexStart);
+// substring(indexStart, indexEnd);
 
 {
     //  let str = 'This is javascript string method'
     //          // 01234567890123456789012345678901
 
-    // let result1 = str.substring(10)
-    // console.log(result1)
+    // let result1 = str.substring(10);
+    // console.log(result1);
 
     // let result2 = str.substring(8, -10)
     // console.log(result2);
