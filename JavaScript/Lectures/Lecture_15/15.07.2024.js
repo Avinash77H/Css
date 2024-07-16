@@ -40,16 +40,64 @@ let data = [-30,-20,-10,0,10,20,30];
 
 // console.log(data.includes(30));
 
-const maxFun = (para) => {
-    return Math.max.apply(null,para);
-}
-const minFun = (para) => {
-    return Math.min.apply(null,para);
-}
+// const maxFun = (para) => {
+//     return Math.max.apply(null,para);
+// }
+// const minFun = (para) => {
+//     return Math.min.apply(null,para);
+// }
 
-console.log(maxFun(data));
-console.log(minFun(data));
+// console.log(maxFun(data));
+// console.log(minFun(data));
 
-console.log(data);
+// console.log(data);
 
 
+const myArr = [10,30,50,20,40];
+
+// console.log(myArr);
+
+// console.log(myArr.toString());
+
+// console.log(myArr.indexOf(40));
+
+// console.log(myArr.at(2));
+
+
+// console.log( myArr.join("-"));
+
+// delete myArr[0];
+// console.log(myArr[0]);
+// console.log(myArr);
+
+// let x = myArr.toSpliced(1,0,'avinash','bhavin','rushik');
+
+// console.log(x);
+
+// const marvel_heroes = ['thor','hulk','ironman'];
+// const dc_heroes = ['superman','flash','batman'];
+
+// const new_heroes = marvel_heroes.concat(dc_heroes);
+
+/* spread operator */
+
+// const new_heroes  = [...marvel_heroes, ...dc_heroes];
+// console.log(new_heroes);
+
+// const another_array = [1,2,3,[3,3],4,5,[6,6,[100,100,[200,200]]],7,8,9,10];
+
+// const new_another_array = another_array.flat(3);
+// console.log(new_another_array);
+
+/* converting in array */
+// const new_array = Array.from("avinash");
+
+// console.log(new_array);
+
+// console.log(Array.from({name : 'avinash'})); // return empty array because his not decide which type of array convert means key array or value array
+
+// let team1 = 'a';
+// let team2 = 'b';
+// let team3 = 'c';
+
+// console.log(Array.of(team1,team2,team3));
