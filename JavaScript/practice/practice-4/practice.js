@@ -338,3 +338,37 @@ Expected Output : 'Development' */
 
     // console.log(perfectNumber(8128));
 }
+
+
+/***  practice ***/
+
+
+// let promise = new promise(function(resolve,reject){
+// do something
+// });
+
+
+// let checkPromise = new Promise(function(resolve,reject){
+//     let count = true;
+//     if(count){
+//         resolve('print if condition')
+//     }
+//     else{
+//         reject('print else condition')
+//     }
+// });
+
+// checkPromise
+// .then((result)=>{
+//     console.log(result)
+// })
+// .catch((err)=>{
+//     console.warn(err)
+// })
+// .finally(function greet(){
+//     console.log('this code is execute.');
+// });
+
+// console.log(checkPromise);
+
+

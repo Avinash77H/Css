@@ -135,3 +135,77 @@
     // console.log(obj.intro());
 }
 
+/* call method */
+
+{
+    // let person = {
+    //     sayHello: function(city){
+    //         return `${this.name} and ${this.age} 
+    //         city is ${city}`
+    //     }
+    // }
+
+    // let data = {
+    //     name : 'virat',
+    //     age : 34
+    // };
+
+    // let data1 = {
+    //     name : 'rohit',
+    //     age : 36
+    // };
+
+    // console.log(person.sayHello.call(data,'surat'));
+}
+
+
+/* apply method */
+
+// definitely pass argument as a array and method not define in arrow funcion because arrow funciton not support in apply method
+
+
+{
+    // let person = {
+    //     sayHello: function (city){
+    //         return `${this.name} and ${this.age}
+    //          city is : ${city}`
+    //     }
+    // }
+
+    // let data = {
+    //     name : "avinash",
+    //     age : 23
+    // }
+
+    // let data1 = { 
+    //     name : "milan",
+    //     age : 24
+    // }
+
+    // console.log(person.sayHello.apply(data,['junagadh']));
+}
+
+
+/* bind */
+
+{
+    // let person = {
+    //     name : 'hardik padya',
+    //     age : 20,
+    //     sayHello : function (city){
+    //         return `${this.name} and ${this.age} , city : ${city}`
+    //     }
+
+    // }
+
+    // let data = {
+    //     name : 'ishan kishan',
+    //     age : 18
+    // };
+
+    // console.log(person.sayHello.bind(data,'mumbai')());
+
+}
+
+
+/* practice section */

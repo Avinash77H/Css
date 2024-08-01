@@ -101,3 +101,50 @@ const myArr = [10,30,50,20,40];
 // let team3 = 'c';
 
 // console.log(Array.of(team1,team2,team3));
+
+/* --> new lecture <-- */
+
+// let array = [10,20,30,40,[50,60,70],80];
+
+// console.log(array);
+// console.log(array.flat());
+
+let array1 = [10,90,20,30,40,50,60,80];
+
+// let total = 0;
+
+// array1.forEach((ele) => {
+//     total += ele;
+// });
+
+// console.log(total);
+
+// let newData = array1.map((ele) => {
+//     return ele * 2;
+// });
+
+// console.log(newData);
+
+// array1 = array1.filter((ele) => ele <= 30);
+// array1 = array1.find((ele) => ele > 50);
+// array1 = array1.findIndex((ele) => ele > 50);
+// array1 = array1.every((ele) => ele <= 500);
+// array1 = array1.some((ele) => ele > 50);
+// array1 = array1.reduce((total,ele) => total += ele, 0);
+// array1 = array1.reduce((total,ele) => total += ele, 50);
+// array1 = array1.reduceRight((total,ele) => total += ele,50);
+
+// let a = array1.entries();
+// console.log(a.next().value);
+// console.log(a.next().value);
+// console.log(a.next().value);
+// console.log(a.next().value);
+// console.log(a.next().value);
+// console.log(a.next().value);
+// console.log(a.next().value);
+// console.log(a.next().value);
+
+// let array2 = [10,20,30,40,50,60,70,80,90,100];
+
+// console.log(array2.copyWithin(4,0,2));
+// console.log(array2.copyWithin(4,0));

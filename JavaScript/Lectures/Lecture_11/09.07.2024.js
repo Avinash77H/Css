@@ -1,6 +1,7 @@
 let x = "1050";
 
 /* convert string into number */
+
 // console.log((+x));
 // console.log(Number(x));
 // console.log(Number(x));
