@@ -1,0 +1,47 @@
+
+#box{
+    height: 100px;
+    display: hidden;
+    background-color: paleturquoise;
+    color:darkblue;
+    padding: 30px;
+    border: 2px solid green;
+}
+
+
+   
+
+#fade-box{
+    background-color: palegreen;
+    border: 2px solid green;
+    text-align: center;
+}
+
+.box_container{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+#box1,#box2,#box3{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    
+}
+
+#box1{
+    background-color: palegoldenrod;
+}
+#box2{
+    background-color: palegreen;
+}
+#box3{
+    background-color: paleturquoise;
+}
+
+#animate_box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    background-color:paleturquoise;
+}

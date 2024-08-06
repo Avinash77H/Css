@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+</head>
+<body>
+    <div id="container">ajax data</div>
+    <button onclick="fetchData()">click for data</button> 
+    
+    
+    <script>
+        // function fetchData(){
+        //     let http = new XMLHttpRequest();
+
+        //     http.onreadystatechange = function(){
+        //         if(this.readyState == 4 && this.status == 200){
+        //             document.getElementById("container").innerHTML = this.responseText
+        //         }
+        //     }
+
+        //     http.open('GET','readme.txt',true)
+        //     http.send();
+        // }
+
+        function fetchData(){
+            let http = new XMLHttpRequest();
+
+            http.onreadystatechange = function(){
+                if(this.readyState == 4 && this.status == 200){
+                    document.getElementById("container").innerHTML = this.responseText
+                }
+            }
+
+            http.open('GET','readme.txt',true)
+            http.send();
+        }
+    </script>
+</body>
+</html>
