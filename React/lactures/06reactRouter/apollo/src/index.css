@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer components{
-    .xyz{
-        @apply text-center bg-blue-400 font-black text-3xl p-4 
-    } 
-}
